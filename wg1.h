@@ -15,6 +15,12 @@ public:
     explicit WG1(QWidget *parent = 0);
     ~WG1();
 
+signals:
+    void back();
+
+private slots:
+    void slot_back();
+
 private:
     Ui::WG1 *ui;
 };
